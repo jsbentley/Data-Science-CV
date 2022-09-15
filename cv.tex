@@ -1,0 +1,42 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger (Darwiin)
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{yaac-another-awesome-cv}
+\name{John}{Bentley}
+\tagline{Data analyst|scientist}
+%\photo{2.5cm}{darwiin}
+\socialinfo{
+    \email{jsbentley@gmail.com}\\
+	\smartphone{(+44) 07862 691295}\\
+	\github{jsbentley}\\
+	%\faIcon{github}\ \ github.com/jsbentley\\
+	\address{Kimberley, Nottinghamshire, NG16 2LE}\\
+	\infos{New Zealand/United Kingdom citizen}
+}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{} % \selectlanguage{english}\today
+		{\textsc{John Bentley - CV}}
+		{\thepage}
+
+	\input{section_statement}
+    \input{section_skills}
+    \input{section_projects}
+    \input{section_education}
+    \input{section_history}
+    \input{section_publications}
+    \input{section_references}
+\end{document}
